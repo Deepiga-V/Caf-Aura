@@ -369,14 +369,6 @@ section{
     background: var(--main-color);
 }
 
-
-
-
-
-
-
-
-
 /*media quries*/
 
 @media(max-width:991px){
@@ -420,7 +412,7 @@ section{
     }
 
 
-    .header .navbar .active{
+    .header .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
